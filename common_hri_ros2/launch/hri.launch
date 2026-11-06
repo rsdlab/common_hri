@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="common_hri" name="Mainengine" type="Mainengine.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="PersonDetection" type="Person_Detection.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Speech_Synthesis" type="Speech_Synthesis.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Speech_Recognition" type="Speech_Recognition.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Person_Identification" type="Person_Identification.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Person_Localization" type="Person_Localization.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Move" type="Move.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Approach" type="Approach.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Leave" type="Leave.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+  <node pkg="common_hri" name="Touch" type="Touch.py" output="screen" launch-prefix="gnome-terminal --tab -- bash -c" />
+
+</launch>

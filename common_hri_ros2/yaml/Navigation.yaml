@@ -1,0 +1,11 @@
+collect:
+  rtm: []
+  apt: 
+  - ros-noetic-navigation
+  - ros-noetic-nav-msgs
+  pip: []
+  git:
+  - url: null
+    repo: null
+    branch: null
+  other: []

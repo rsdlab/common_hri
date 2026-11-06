@@ -1,0 +1,11 @@
+<rois:HRIEngineProfile xmlns:rois="http://example.com/r/rois" xmlns:gml="http://example.com/r/gml">
+    <gml:identifier>urn:x-rois:def:HRIEngine:hsr_hri</gml:identifier>
+    <gml:filename>Mainengine_ros2</gml:filename>
+    <rois:HRIComponent>rois:HRIComponent:Speech_Synthesis</rois:HRIComponent>
+    <rois:HRIComponent>rois:HRIComponent:Speech_Recognition</rois:HRIComponent>
+    <rois:HRIComponent>rois:HRIComponent:Object_Grasping</rois:HRIComponent>
+    <rois:HRIComponent>rois:HRIComponent:Object_Release</rois:HRIComponent>
+    <rois:HRIComponent>rois:HRIComponent:Move</rois:HRIComponent>
+    <rois:HRIComponent>rois:HRIComponent:Approach</rois:HRIComponent>
+    <rois:HRIComponent>rois:HRIComponent:Leave</rois:HRIComponent>
+</rois:HRIEngineProfile>

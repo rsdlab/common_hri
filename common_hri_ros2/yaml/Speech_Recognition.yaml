@@ -1,0 +1,11 @@
+collect:
+  rtm: []
+  apt: []
+  pip:
+  - SpeechRecognition
+  - pygame
+  git:
+  - url: null
+    repo: null
+    branch: null
+  other: []

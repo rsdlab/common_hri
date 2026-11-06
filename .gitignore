@@ -20,3 +20,14 @@ common_hri_ros1/script/Person_Localization.py
 
 # Eclipse workspace metadata
 .metadata/
+
+# ROS2 Person components (not yet released)
+common_hri_ros2/script/Person_*.py
+common_hri_ros2/yaml/Person_*.yaml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Development files
+.metadata/

@@ -1,0 +1,10 @@
+collect:
+  rtm: []
+  apt: []
+  pip:
+  - pygame
+  git:
+  - url: null
+    repo: null
+    branch: null
+  other: []
