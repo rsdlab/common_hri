@@ -1,0 +1,38 @@
+Robot: SEED_Noid
+Component:
+  - Person_Detection
+  - Person_Localization
+  - Person_Identification
+  - Speech_Synthesis
+  - Speech_Recognition
+  - Move
+  - Approach
+  - Touch
+  - Leave
+  - Navigation
+
+Param:
+  RobotAction:
+    service: /SEED/robot_action
+  ApproachAction:
+    service: /SEED/approach_action
+  MoveAction:
+    service: /SEED/move_action
+  NavigationAction:
+    service: /SEED/navigation_action
+  ObjectGraspingAction:
+    service: /SEED/object_grasping_action
+  SpeechSynthesisAction:
+    service: /SEED/speech_synthesis_action
+  SpeechRecognitionAction:
+    service: /AIREC/speech_recognition_action
+  Person_Identification:
+    image_topic: /camera/color/image_raw
+    crop_width: 500
+    crop_height: 700
+    offset_x: 50
+    offset_y: 250
+  Speech_Synthesis:
+    voice_directory: /home/rsdlab/colcon_ws/src/sensor_system/voice/
+  Speech_Recognition:
+    voice_directory: /home/rsdlab/colcon_ws/src/rois_env/voice/

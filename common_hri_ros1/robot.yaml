@@ -1,0 +1,37 @@
+Robot: AIREC
+Component:
+  - Person_Detection
+  - Person_Localization
+  - Person_Identification
+  - Speech_Synthesis
+  - Speech_Recognition
+  - Move
+  - Approach
+  - Touch
+  - Leave
+
+Param:
+  RobotAction:
+    service: /AIREC/robot_action
+  ApproachAction:
+    service: /AIREC/approach_action
+  MoveAction:
+    service: /AIREC/move_action
+  NavigationAction:
+    service: /AIREC/navigation_action
+  ObjectGraspingAction:
+    service: /AIREC/object_grasping_action
+  SpeechSynthesisAction:
+    service: /AIREC/speech_synthesis_action
+  SpeechRecognitionAction:
+    service: /AIREC/speech_recognition_action
+  Person_Identification:
+    image_topic: /torobo/head/orbbec/femto_bolt/color/image_raw
+    crop_width: 400
+    crop_height: 350
+    offset_x: -50
+    offset_y: 0
+  Speech_Synthesis:
+    voice_directory: /home/rsdlab/colcon_ws/src/sensor_system/voice/
+  Speech_Recognition:
+    voice_directory: /home/rsdlab/colcon_ws/src/rois_ros/script/voice_kenkou/

@@ -1,0 +1,10 @@
+collect:
+  rtm: []
+  apt:
+  - ros-noetic-moveit
+  pip: []
+  git:
+  - url: null
+    repo: null
+    branch: null
+  other: []

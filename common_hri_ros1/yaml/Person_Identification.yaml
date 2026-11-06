@@ -1,0 +1,15 @@
+collect:
+  rtm: []
+  apt:
+  - ros-noetic-cv-bridge
+  pip:
+  - opencv-python
+  - PyYAML
+  - pygame
+  - face_recognition
+  - psycopg2
+  git:
+  - url: null
+    repo: null
+    branch: null
+  other: []

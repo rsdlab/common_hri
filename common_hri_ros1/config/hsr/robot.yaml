@@ -1,0 +1,36 @@
+Robot: HSR
+Component:
+  - Speech_Synthesis
+  - Speech_Recognition
+  - Move
+  - Approach
+  - Touch
+  - Leave
+  - Object_Release
+  - Object_Grasping
+
+Param:
+  RobotAction:
+    service: /HSR/robot_action
+  ApproachAction:
+    service: /HSR/approach_action
+  MoveAction:
+    service: /HSR/move_action
+  NavigationAction:
+    service: /HSR/navigation_action
+  ObjectGraspingAction:
+    service: /HSR/object_grasping_action
+  SpeechSynthesisAction:
+    service: /HSR/speech_synthesis_action
+  SpeechRecognitionAction:
+    service: /HSR/speech_recognition_action
+  Person_Identification:
+    image_topic: /HSR/head/orbbec/femto_bolt/color/image_raw
+    crop_width: 400
+    crop_height: 350
+    offset_x: -50
+    offset_y: 0
+  Speech_Synthesis:
+    voice_directory: /home/rsdlab/colcon_ws/src/sensor_system/voice/
+  Speech_Recognition:
+    voice_directory: /home/rsdlab/colcon_ws/src/rois_ros/script/voice_kenkou/

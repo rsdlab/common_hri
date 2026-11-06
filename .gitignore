@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ROS build files
+build/
+install/
+log/
+devel/
+
+# Temporary files
+*.swp
+*~
+
+# Person components (not yet ready for release)
+common_hri_ros1/script/Person_Detection.py
+common_hri_ros1/script/Person_Identification.py
+common_hri_ros1/script/Person_Localization.py
+
+# Eclipse workspace metadata
+.metadata/
